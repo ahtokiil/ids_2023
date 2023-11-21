@@ -25,6 +25,8 @@ The texts belong to the following text classes:
 
 From 524 335 words in the corpus there are 96 512 verbs (weight = 0,184066).
 
+The .txt file can be downloaded [here](https://github.com/ahtokiil/ids_2023/blob/main/verb_tokens_morph_corpus_211123.txt).
+
 The verbforms are represented as follows:
 
           Form token                                 Count      Weight
@@ -167,6 +169,3 @@ The verbforms are represented as follows:
 //_V_ main imper pres imps neg //                 	     1	  0.000010
 //_V_ mod partic past imps //                     	     1	  0.000010
 //_V_ aux cond past ps3 sg ps af //               	     1	  0.000010
-
-The .txt file can be downloaded [here](https://github.com/ahtokiil/ids_2023/blob/main/verb_tokens_morph_corpus_211123.txt).
-
