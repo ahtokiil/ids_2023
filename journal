@@ -10,18 +10,12 @@ The texts belong to the following text classes:
 
 ### Texts:
 
-| Text class                              | Number of words |
+| Text class | Number of words |
 | --------------------------------------- | --------------- |
-| Fiction (Estonian authors)              | 104000         |
-| G. Orwell's "1984"                      | 75500          |
-| Newspaper texts                         | 111000         |
-| Legal texts                             | 121000         |
-| Texts from the scientific magazine "Horisont" | 98000  |
-| Reference texts                         | 4000           |
-| Altogether                              | 513000         |
-
-
-| Text | Number |
-| --- | --- |
-| Auto | 2 |
-
+| Fiction (Estonian authors) | 104000 |
+| G. Orwell's "1984" | 75500 |
+| Newspaper texts | 111000 |
+| Legal texts | 121000 |
+| Texts from the scientific magazine "Horisont" | 98000 |
+| Reference texts | 4000 |
+| Altogether | 513000 |
