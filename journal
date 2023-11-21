@@ -21,8 +21,3 @@ The texts belong to the following text classes:
 | Reference texts | 4000 |
 | Altogether | 513000 |
 
-
-|**Küsimus**   |  **Linux** |  **Windows** |  **Lin käsklus** |  **Win käsklus** |
-|---|---|---|:-----------------------:|:-----------------------:|
-|  Mitu protsessi kokku arvutis käib? | 210  |   |pgrep -c .   |   |
-
