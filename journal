@@ -19,3 +19,10 @@ The texts belong to the following text classes:
 | Texts from the scientific magazine "Horisont" | 98000 |
 | Reference texts | 4000 |
 | Altogether | 513000 |
+
+
+
+| Header 1  | Header 2            | Header 3  |
+| --------- | ------------------- | --------- |
+| Some data |                     | Cell 3    |
+| data      | Some long data here | more data |
