@@ -1,2 +1,25 @@
-### 
-1. 
+### Morphologically disambiguated corpus
+
+1. Content
+
+The work with the morphological disambiguation of Estonian began in the COPERNICUS-project "Multext-East" (1995-1997). During that project G. Orwell's novel "1984" was disambiguated. 
+The main part of this corpus, 400 000 words, has been disambiguated during 2002-2003. This work has been supported by the national program "Eesti keel ja rahvuskultuur" 
+(Estonian Language and National Culture). The following researchers have participated in this work: Külli Habicht, Heiki-Jaan Kaalep, Neeme Kahusk, Kadri Muishnek, Heili Orav, Andriela Rääbis, Kadri Vider.
+
+The texts belong to the following text classes:
+
+| Text class | number or words |
+| --- | --- |
+|Fiction (Estonian authors)|104 000|
+|G. Orwell's "1984"|75 500|
+|Newspaper texts|111 000|
+|Legal texts|121 000|
+|Texts from the scientific magazine "Horisont"|98 000|
+|Reference texts|4 000|
+|Altogether|513 000|
+
+	
+	
+	
+
+
