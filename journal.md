@@ -31,23 +31,23 @@ The verbforms are represented as follows:
 | --- | --- | --- |        
 |//_V_ main indic pres ps3 sg ps af //             	 |15167	  |0.157151|
 |//_V_ main indic impf ps3 sg ps af //             	 |14779	  |0.153131|
-//_V_ main inf //                                 	 10355	  0.107292
-//_V_ aux neg //                                  	  5997	  0.062137
-//_V_ main partic past ps //                      	  4934	  0.051123
-//_V_ main indic pres ps3 pl ps af //             	  3693	  0.038265
-//_V_ main sup ps ill //                          	  3623	  0.037539
-//_V_ main indic pres ps neg //                   	  3411	  0.035343
-//_V_ main indic impf ps3 pl ps af //             	  2916	  0.030214
-//_V_ main indic pres imps af //                  	  2909	  0.030141
-//_V_ main partic past imps //                    	  2791	  0.028919
-//_V_ aux indic pres ps3 sg ps af //              	  2567	  0.026598
-//_V_ main indic impf ps neg //                   	  2009	  0.020816
-//_V_ mod indic pres ps3 sg ps af //              	  1943	  0.020132
-//_V_ main ger //                                 	  1804	  0.018692
-//_V_ main indic impf imps af //                  	  1689	  0.017500
-//_V_ aux indic impf ps3 sg ps af //              	  1541	  0.015967
-//_V_ main indic impf ps1 sg ps af //             	  1361	  0.014102
-//_V_ main indic pres ps1 sg ps af //             	  1118	  0.011584
+|//_V_ main inf //                                 	 |10355	  |0.107292|
+|//_V_ aux neg //                                  	 |5997	  |0.062137|
+|//_V_ main partic past ps //                      	 |4934	  |0.051123|
+|//_V_ main indic pres ps3 pl ps af //             	  |3693	  |0.038265|
+|//_V_ main sup ps ill //                          	  |3623	  |0.037539|
+|//_V_ main indic pres ps neg //                   	  |3411	  |0.035343|
+|//_V_ main indic impf ps3 pl ps af //             	  |2916	  |0.030214|
+|//_V_ main indic pres imps af //                  	  |2909	  |0.030141|
+|//_V_ main partic past imps //                    	  |2791	  |0.028919|
+|//_V_ aux indic pres ps3 sg ps af //              	  |2567	  |0.026598|
+|//_V_ main indic impf ps neg //                   	  |2009	  |0.020816|
+|//_V_ mod indic pres ps3 sg ps af //              	  |1943	  |0.020132|
+|//_V_ main ger //                                 	  |1804	  |0.018692|
+|//_V_ main indic impf imps af //                  	  |1689	  |0.017500|
+|//_V_ aux indic impf ps3 sg ps af //              	  |1541	  |0.015967|
+|//_V_ main indic impf ps1 sg ps af //             	  |1361	  |0.014102|
+|//_V_ main indic pres ps1 sg ps af //             	  |1118	  |0.011584|
 //_V_ main cond pres ps3 sg ps af //              	   798	  0.008268
 //_V_ mod indic impf ps3 sg ps af //              	   637	  0.006600
 //_V_ main indic pres ps1 pl ps af //             	   598	  0.006196
