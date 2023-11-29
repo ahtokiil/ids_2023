@@ -23,7 +23,7 @@ Texts:
 
 2. Verbs
 
-From 524 335 words in the corpus there are 96 512 verbs (weight = 0,184066).
+From 524 335 words in the corpus there are 96 512 verbs (weight = 0.184066).
 
 The verbforms are represented as follows:
 
