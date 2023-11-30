@@ -106,4 +106,4 @@ The verbforms are represented as follows:
 
 
 
-The .txt file can be downloaded [here](https://github.com/ahtokiil/ids_2023/blob/main/verb_tokens_etnc19_web2019_291123.txt).
+The .txt file can be downloaded [here](https://github.com/ahtokiil/ids_2023/blob/main/verb_tokens_web_2019_291123.txt).
