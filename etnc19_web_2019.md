@@ -11,7 +11,7 @@ From 509 679 495 words in the corpus there are 100 556 740 verbs (weight = 0.197
 The verbforms are represented as follows:
 
 | *Form token* | *Count* | *Weight* |
-| --- | --- | --- |
+| --- | ---: | --- |
 | V.b        | 27 069 803  | 0.269199    |
 | V.da       | 12 796 270  | 0.127254    |
 | V.s        | 9 822 918   | 0.097685    |
