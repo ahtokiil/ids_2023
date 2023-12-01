@@ -12,7 +12,7 @@ The texts belong to the following text classes:
 [Texts](https://www.cl.ut.ee/korpused/morfkorpus/index.php?lang=en):
 
 | Text class | Number of words |
-|---------------------------------------|---------------|
+|---------------------------------------|---------------:|
 | Fiction (Estonian authors) | 104 000 |
 | G. Orwell's "1984" | 75 500 |
 | Newspaper texts | 111 000 |
