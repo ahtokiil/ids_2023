@@ -9,7 +9,7 @@ Heili Orav, Andriela Rääbis, Kadri Vider.
 
 The texts belong to the following text classes:
 
-Texts:
+[Texts](https://www.cl.ut.ee/korpused/morfkorpus/index.php?lang=en):
 
 | Text class | Number of words |
 |---------------------------------------|---------------|
