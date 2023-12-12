@@ -1,4 +1,4 @@
-# Introduction to data science - fall 2023
+# Introduction to Data Science - fall 2023/24
 
 ## Project D8 - Estonian verb forms
 
