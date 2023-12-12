@@ -21,6 +21,8 @@ The texts belong to the following text classes:
 | Reference texts | 4000 |
 | Altogether | 513 000 |
 
+2. Processing
+
 The corpus consists of 128 *.kym files that were concatenated into one .txt file.
 
 ```python
@@ -56,9 +58,42 @@ result_text_array = read_kym_files(folder_path)
 write_to_single_file(output_file_path, result_text_array)
 ```
 
-2. Verbs
+Tags, interpunctuation, numericals etc. were removed.
 
-From 524 335 words in the corpus there are 96 512 verbs (weight = 0.184066).
+```python
+# Clean morph corpus of tags, interpunctuation, numericals etc.
+
+# Lines in corpus
+counter1 = 0
+# Lines written
+counter2 = 0
+
+with open('morph_corp.txt', 'r', encoding='utf-8') as file_in:
+    with open('clean_morph_corpus.txt', 'w', encoding='utf-8') as file_out:
+        start_sentence = False
+        for row in file_in:
+            counter1 += 1
+            if '<s>' in row:
+                start_sentence = True
+            if '</s>' in row:
+                start_sentence = False
+
+            tokens = row.strip().split()
+            first_string = row.strip().split(('\t'), 1)[0].lower()
+
+            if start_sentence == True and first_string[0].isalpha():
+                row = '\t'.join(
+                    tokens[:3] + [' '.join(tokens[2:])]) if len(tokens) >= 3 else ''
+                file_out.write(row + '\n')
+                counter2 += 1
+
+print(f"Number of lines in corpus: {counter1}")
+print(f"Number of lines written to file: {counter2}")
+```
+
+3. Verbs
+
+From 492 519 words in the corpus there are 96 510 verbs (weight = 0.184066).
 
 The verbforms are represented as follows:
 
