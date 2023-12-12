@@ -21,6 +21,41 @@ The texts belong to the following text classes:
 | Reference texts | 4000 |
 | Altogether | 513 000 |
 
+The corpus consists of 128 *.kym files that were concatenated into one .txt file.
+
+```python
+import os
+
+# Method to concatenate all *.kym files into one .txt file
+def read_kym_files(folder_path):
+    text_array = []
+    # List all files in the specified folder
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith(".kym"):
+                kym_file_path = os.path.join(root, file)
+
+                # Read the content of each .kym file and append to the text_array
+                with open(kym_file_path, "r", encoding="utf-8") as kym_file:
+                    file_content = kym_file.read()
+                    text_array.append(file_content)
+
+    return text_array
+
+# Now result_text_array contains the content of all .kym files in the specified folder
+
+def write_to_single_file(output_file_path, text_array):
+    with open(output_file_path, "w", encoding="utf-8") as output_file:
+        for text_content in text_array:
+            output_file.write(text_content)
+
+# Run method to concatenate all *.kym files
+folder_path = "E:\IDS_project_fall2023\Morf_corp_files"
+output_file_path = "E:\IDS_project_fall2023\morph_corp.txt"
+result_text_array = read_kym_files(folder_path)
+write_to_single_file(output_file_path, result_text_array)
+```
+
 2. Verbs
 
 From 524 335 words in the corpus there are 96 512 verbs (weight = 0.184066).
