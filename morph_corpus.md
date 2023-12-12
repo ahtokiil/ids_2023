@@ -23,7 +23,7 @@ The texts belong to the following text classes:
 
 2. Processing
 
-The corpus consists of 128 *.kym files that were concatenated into one .txt file.
+2.1 The corpus consists of 128 *.kym files that were concatenated into one .txt file.
 
 ```python
 import os
@@ -58,7 +58,7 @@ result_text_array = read_kym_files(folder_path)
 write_to_single_file(output_file_path, result_text_array)
 ```
 
-Tags, interpunctuation, numericals etc. were removed.
+2.2 Tags, interpunctuation, numericals etc. were removed.
 
 ```python
 # Clean morph corpus of tags, interpunctuation, numericals etc.
@@ -89,6 +89,34 @@ with open('morph_corp.txt', 'r', encoding='utf-8') as file_in:
 
 print(f"Number of lines in corpus: {counter1}")
 print(f"Number of lines written to file: {counter2}")
+```
+
+2.3 Counting the verb forms, writing results to a .txt file.
+
+```python
+# Counting different verb form occurencies in corpus, writing results to .txt file
+
+tag_counts = {}
+
+with open('clean_morph_corpus.txt', 'r', encoding='utf-8') as file:
+    for line in file:
+        tokens = line.strip().split('\t')
+        if len(tokens) > 2:
+            if tokens[2] == '//_V_':
+                tag = tokens[3]
+                tag_counts[tag] = tag_counts.get(tag, 0) + 1
+
+total_count = sum(tag_counts.values())
+
+sorted_counts = sorted(tag_counts.items(), key=lambda x: x[1], reverse=True)
+
+with open('morph_corpus_summary.txt', 'w', encoding='utf-8') as output_file:
+    for tag, count in sorted_counts:
+        relative_frequency = count / total_count
+        tag = tag[6:-3]
+        output_file.write(f"{tag:50}\t{count:6}\t{relative_frequency:.6f}\n")
+
+print(f"Total verb count: {total_count}\n")
 ```
 
 3. Verbs
