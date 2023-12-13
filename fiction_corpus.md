@@ -2,7 +2,7 @@
 
 1. Content
 
-The [Fiction Corpus of Estonian](https://entu.keeleressursid.ee/api2/file-24768?key=G3qonxL3kavZ1NGJ79jk7eIamFRkoLZBMkHCc8jVgudimdUDeSZC5XKrn6U0wxhj)) has books from three Estonian publishers, both original Estonian authors and translated works.
+The [Fiction Corpus of Estonian](https://entu.keeleressursid.ee/api2/file-24768?key=G3qonxL3kavZ1NGJ79jk7eIamFRkoLZBMkHCc8jVgudimdUDeSZC5XKrn6U0wxhj) has books from three Estonian publishers, both original Estonian authors and translated works.
 
 2. Processing
 
