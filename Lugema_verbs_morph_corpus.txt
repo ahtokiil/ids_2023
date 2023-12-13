@@ -1,0 +1,50 @@
+loeb	15167	0.157151
+luges	14779	0.153131
+lugeda	10355	0.107292
+ei (abiverb)	5997	0.062137
+lugenud	4934	0.051123
+loevad	3693	0.038265
+lugema	3623	0.037539
+pole	3411	0.035343
+lugesid	2916	0.030214
+loetakse	2909	0.030141
+loetud	2791	0.028919
+on (abiverb)	2567	0.026598
+polnud	2009	0.020816
+saab (modaalverb)	1943	0.020132
+lugedes	1804	0.018692
+loeti	1689	0.017500
+oli (abiverb)	1541	0.015967
+lugesin	1361	0.014102
+loen	1118	0.011584
+loeks	798	0.008268
+sai (modaalverb)	637	0.006600
+loeme	598	0.006196
+on (abiverb)	568	0.005885
+pole (abiverb)	541	0.005606
+(ei) saa (modaalverb)	528	0.005471
+loed	497	0.005150
+lugemas	488	0.005056
+lugemata	443	0.004590
+loe	394	0.004082
+oleks (abiverb)	392	0.004062
+lugesime	384	0.003979
+loete	381	0.003948
+saaks (modaalverb)	358	0.003709
+olid (abiverb)	294	0.003046
+saavad (modaalverb)	294	0.003046
+(ei)+loeta	280	0.002901
+lugevat	261	0.002704
+(ei) olnud	220	0.002280
+lugege	191	0.001979
+(ei) oleks	166	0.001720
+(ei) saanud	151	0.001565
+loeks	151	0.001565
+olen (abiverb)	149	0.001544
+(ei) loetud	146	0.001513
+saanud (modaalverb)	128	0.001326
+loeksin	127	0.001316
+said (modaalverb)	125	0.001295
+(ei) oleks (abiverb)	120	0.001243
+saame (modaalverb)	102	0.001057
+lugegu	98	0.001015
