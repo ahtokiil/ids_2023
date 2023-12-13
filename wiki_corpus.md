@@ -9,15 +9,15 @@ The [Wikipedia Corpus of Estonian](https://entu.keeleressursid.ee/api2/file-2476
 2.1 Tags, interpunctuation, numericals etc. were removed.
 
 ```python
-# Clean balanced corpus of tags, interpunctuation, numericals etc.
+# Clean wiki corpus of tags, interpunctuation, numericals etc.
 
 # Lines in corpus
 counter1 = 0
 # Lines written
 counter2 = 0
 
-with open('nc19_Balanced_Corpus.vert', 'r', encoding='utf-8') as file_in:
-    with open('clean_balanced_corpus.txt', 'w', encoding='utf-8') as file_out:
+with open('nc21_Wikipedia_2021.vert', 'r', encoding='utf-8') as file_in:
+    with open('clean_wiki_corpus.txt', 'w', encoding='utf-8') as file_out:
         start_sentence = False
         for row in file_in:
             counter1 += 1
@@ -43,7 +43,7 @@ print(f"Number of lines written to file: {counter2}")
 
 tag_counts = {}
 
-with open('clean_balanced_corpus.txt', 'r', encoding='utf-8') as file:
+with open('clean_wiki_corpus.txt', 'r', encoding='utf-8') as file:
     for line in file:
         tokens = line.strip().split('\t')
         if len(tokens) > 2:
@@ -55,7 +55,7 @@ total_count = sum(tag_counts.values())
 
 sorted_counts = sorted(tag_counts.items(), key=lambda x: x[1], reverse=True)
 
-with open('balanced_corpus_summary.txt', 'w', encoding='utf-8') as output_file:
+with open('wiki_corpus_summary.txt', 'w', encoding='utf-8') as output_file:
     for tag, count in sorted_counts:
         relative_frequency = count / total_count
         output_file.write(f"{tag:50}\t{count:6}\t{relative_frequency:.6f}\n")
