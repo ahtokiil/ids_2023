@@ -267,5 +267,86 @@ The verbforms are represented as follows:
 | mod partic past imps                               | 1         | 0.000010     |
 | aux cond past ps3 sg ps af                         | 1         | 0.000010     |
 
-
 The .txt file can be downloaded [here](https://github.com/ahtokiil/ids_2023/blob/main/morph_corpus_summary.txt).
+
+4. Graphs
+
+![Verbforms with weight >= 0.001](morph_corpus_barplot.png)
+
+```python
+# Plot the relative frequencies of verbforms in morph corp
+import matplotlib.pyplot as plt
+
+with open('morph_corpus_summary.txt', 'r', encoding='utf-8') as file:
+    data = file.read()
+
+# Process the data into lists for plotting
+lines = data.strip().split('\n')
+labels = [line.split('\t')[0].strip() for line in lines]
+values = [float(line.split('\t')[-1].strip()) for line in lines]
+
+# Filter out values lower than 0.001
+filtered_labels = [label for label, value in zip(
+    labels, values) if value > 0.001]
+filtered_values = [value for value in values if value > 0.001]
+
+# Create the distribution graph
+fig, ax = plt.subplots(figsize=(15, 8))
+bars = ax.bar(filtered_labels, filtered_values,
+              color='gold', edgecolor='black', linewidth=0.5)
+ax.set_xticks(range(len(filtered_labels)))  # Set the tick positions
+ax.set_xticklabels(filtered_labels, rotation=45, ha='right',
+                   fontsize=10)  # Increase font size
+ax.set_ylim(0, 0.175)
+ax.set_xlabel('Forms of verb "lugema"', fontsize=12)  # Increase font size
+ax.set_ylabel('Frequency', fontsize=12)  # Increase font size
+ax.set_title('Distribution of Verb Forms', fontsize=14)  # Increase font size
+
+ax.grid(axis='y', linestyle='--', alpha=0.7)
+
+# Save and display the plot
+plt.tight_layout()
+plt.savefig('morph_corpus_barplot.png', dpi=600)
+plt.show()
+```
+
+![Verb 'lugema' forms with weight >= 0.001](Lugema_morph_corpus_barplot.png)
+
+```python
+# Plot the relative frequencies of 'lugema' verb in morph corp
+import matplotlib.pyplot as plt
+
+with open('Lugema_verbs_morph_corpus.txt', 'r', encoding='utf-8') as file:
+    data = file.read()
+
+# Process the data into lists for plotting
+lines = data.strip().split('\n')
+labels = [line.split('\t')[0].strip() for line in lines]
+values = [float(line.split('\t')[-1].strip()) for line in lines]
+
+# Filter out values lower than 0.001
+filtered_labels = [label for label, value in zip(
+    labels, values) if value > 0.001]
+filtered_values = [value for value in values if value > 0.001]
+
+# Create the distribution graph
+fig, ax = plt.subplots(figsize=(15, 8))
+bar_width = 1.5
+bars = ax.bar(filtered_labels, filtered_values,
+              color='gold', edgecolor='black', linewidth=.7)
+ax.set_xticks(range(len(filtered_labels)))  # Set the tick positions
+ax.set_xticklabels(filtered_labels, rotation=45, ha='right',
+                   fontsize=12)  # Increase font size
+ax.set_xlim(-0.75, len(filtered_labels) - 0.5)
+ax.set_ylim(0, 0.175)
+ax.set_xlabel('Forms of verb "lugema"', fontsize=14)  # Increase font size
+ax.set_ylabel('Frequency', fontsize=14)  # Increase font size
+ax.set_title('Distribution of Verb Forms', fontsize=16)  # Increase font size
+
+ax.grid(axis='y', linestyle='--', alpha=0.7)
+
+# Save and display the plot
+plt.tight_layout()
+plt.savefig('Lugema_morph_corpus_barplot.png', dpi=600)
+plt.show()
+```
