@@ -125,7 +125,7 @@ From 492 519 words in the corpus there are 96 510 verbs (weight = 0.184066).
 
 The verbforms are represented as follows:
 
-| *Form token* | *Count* | *Weight* |
+| *Form tag* | *Count* | *Weight* |
 | --- | ---: | --- |        
 | main indic pres ps3 sg ps af                       | 15 167     | 0.157155     |
 | main indic impf ps3 sg ps af                       | 14 779     | 0.153134     |
