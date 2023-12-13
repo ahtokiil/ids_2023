@@ -1,4 +1,4 @@
-## The Balanced Corpus of Estonian
+## The Fiction Corpus of Estonian
 
 1. Content
 
@@ -132,4 +132,3 @@ The verbforms are represented as follows:
 | neg_da                                        | 1      | 0.000000     |
 
 The .txt file can be downloaded [here](https://github.com/ahtokiil/ids_2023/blob/main/fiction_corpus_summary.txt).
-
