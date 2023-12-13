@@ -1,10 +1,8 @@
-## The Balanced Corpus of Estonian
+## The Wikipedia Corpus of Estonian
 
 1. Content
 
-The [Balanced Corpus of Estonian](https://www.cl.ut.ee/korpused/grammatikakorpus/index.php?lang=en) is compiled in order to enable the comparison of the three main text classes of the written language: fiction, journalistic and scientific writing.
-
-The corpus consists of journalistic texts, works of fiction and science texts. The Balanced Corpus of Estonian is a subpart or a subcorpus of the big Mixed Corpus of Estonian.
+The [Wikipedia Corpus of Estonian](https://entu.keeleressursid.ee/api2/file-24762?key=G3qonxL3kavZ1NGJ79jk7eIamFRkoLZBMkHCc8jVgudimdUDeSZC5XKrn6U0wxhj) consists of selected Wikipedia articles in Estonian.
 
 2. Processing
 
@@ -67,70 +65,67 @@ print(f"Total verb count: {total_count}\n")
 
 3. Verbs
 
-From 9 377 947 words in the corpus there are 1 864 620 verbs (weight = 0.198830).
+From 8 618 382 words in the corpus there are 1 371 876 verbs (weight = 0.159180).
 
 The verbforms are represented as follows:
 
-| *Form token* | *Count* | *Weight* |
+| *Form tag* | *Count* | *Weight* |
 | --- | ---: | --- |
-| mod_indic_pres_ps3_sg_ps_af                   | 456 384 | 0.244695     |
-| mod_indic_impf_ps3_sg_ps_af                   | 294 869 | 0.158097     |
-| mod_inf                                       | 199 067 | 0.106732     |
-| mod_indic_impf_ps_neg                         | 136 020 | 0.072928     |
-| aux_neg                                       | 109 796 | 0.058868     |
-| mod_indic_pres_ps_neg                         | 80 645  | 0.043239     |
-| mod_indic_pres_ps3_pl_ps_af                   | 68 299  | 0.036619     |
-| mod_sup_ps_ill                                | 67 346  | 0.036108     |
-| mod_indic_impf_ps3_pl_ps_af                   | 61 462  | 0.032953     |
-| mod_indic_impf_imps_neg                       | 46 795  | 0.025090     |
-| mod_cond_pres_ps_neg                          | 43 072  | 0.023093     |
-| mod_indic_impf_imps_af                        | 35 574  | 0.019073     |
-| mod_indic_pres_imps_af                        | 35 522  | 0.019045     |
-| mod_ger                                       | 35 393  | 0.018976     |
-| mod_indic_impf_ps1_sg_ps_af                   | 33 523  | 0.017974     |
-| mod_indic_pres_ps1_sg_ps_af                   | 33 324  | 0.017867     |
-| aux_imper_pres_ps2_sg_ps_neg                  | 25 382  | 0.013609     |
-| mod_indic_pres_ps1_pl_ps_af                   | 16 805  | 0.009010     |
-| mod_indic_pres_ps2_sg_ps_af                   | 14 666  | 0.007863     |
-| mod_indic_impf_ps1_pl_ps_af                   | 8192   | 0.004392     |
-| mod_sup_ps_in                                 | 7934   | 0.004254     |
-| aux_indic_impf_ps_neg                         | 7610   | 0.004080     |
-| mod_cond_pres_ps3_pl_ps_af                    | 6294   | 0.003375     |
-| mod_sup_ps_abes                               | 5735   | 0.003075     |
-| mod_quot_pres_ps_neg                          | 5292   | 0.002837     |
-| mod_indic_pres_ps2_pl_ps_af                   | 4896   | 0.002625     |
-| mod_imper_pres_ps2_pl_ps_neg                  | 3906   | 0.002094     |
-| mod_cond_pres_ps1_sg_ps_af                    | 3278   | 0.001758     |
-| mod_indic_pres_imps_neg                       | 3164   | 0.001696     |
-| mod_imper_pres_ps3_pl_ps_neg                  | 2612   | 0.001400     |
-| aux_cond_pres_ps_neg                          | 2190   | 0.001174     |
-| mod_cond_past_ps_neg                          | 1919   | 0.001029     |
-| mod_cond_pres_imps_neg                        | 1255   | 0.000673     |
-| mod_sup_ps_el                                 | 1134   | 0.000608     |
-| mod_sup_ps_tr                                 | 1092   | 0.000585     |
-| mod_cond_pres_ps1_pl_ps_af                    | 996    | 0.000534     |
-| mod_indic_impf_ps2_pl_ps_af                   | 983    | 0.000527     |
-| mod_imper_pres_ps1_pl_ps_neg                  | 691    | 0.000370     |
-| aux_imper_pres_ps2_pl_ps_neg                  | 370    | 0.000198     |
-| mod_cond_pres_ps2_pl_ps_af                    | 351    | 0.000188     |
-| aux_quot_pres_ps_neg                          | 280    | 0.000150     |
-| mod_sup_imps                                  | 167    | 0.000090     |
-| mod_imper_pres_imps_neg                       | 158    | 0.000085     |
-| aux_imper_pres_ps3_pl_ps_neg                  | 114    | 0.000061     |
-| mod_quot_pres_imps_neg                        | 105    | 0.000056     |
-| mod_cond_past_ps3_pl_ps_af                    | 67     | 0.000036     |
-| mod_partic_pres_imps                          | 64     | 0.000034     |
-| mod_cond_past_imps_neg                        | 57     | 0.000031     |
-| mod_cond_past_ps1_sg_ps_af                    | 50     | 0.000027     |
-| aux_cond_past_ps_neg                          | 45     | 0.000024     |
-| aux_imper_pres_ps1_pl_ps_neg                  | 44     | 0.000024     |
-| neg_me                                        | 44     | 0.000024     |
-| mod_partic_pres_ps                            | 38     | 0.000020     |
-| mod_cond_past_ps1_pl_ps_af                    | 26     | 0.000014     |
-| neg_tud                                       | 12     | 0.000006     |
-| mod_quot_past_imps_neg                        | 3      | 0.000002     |
-| mod_quot_past_ps_neg                          | 3      | 0.000002     |
-| mod_cond_past_ps2_pl_ps_af                    | 1      | 0.000001     |
-| neg_da                                        | 1      | 0.000001     |
+| mod_indic_pres_ps3_sg_ps_af                   | 413 314 | 0.301277     |
+| mod_indic_impf_ps3_sg_ps_af                   | 344 420 | 0.251058     |
+| mod_inf                                       | 104 269 | 0.076005     |
+| mod_indic_impf_ps_neg                         | 79 586  | 0.058013     |
+| mod_indic_impf_imps_af                        | 75 933  | 0.055350     |
+| mod_indic_impf_ps3_pl_ps_af                   | 52 679  | 0.038399     |
+| mod_indic_pres_ps3_pl_ps_af                   | 51 159  | 0.037291     |
+| mod_indic_impf_imps_neg                       | 43 668  | 0.031831     |
+| mod_indic_pres_imps_af                        | 38 302  | 0.027919     |
+| aux_neg                                       | 38 019  | 0.027713     |
+| mod_sup_ps_ill                                | 30 991  | 0.022590     |
+| mod_indic_pres_ps_neg                         | 30 848  | 0.022486     |
+| mod_ger                                       | 25 618  | 0.018674     |
+| mod_cond_pres_ps_neg                          | 11 785  | 0.008590     |
+| aux_imper_pres_ps2_sg_ps_neg                  | 6091   | 0.004440     |
+| mod_sup_ps_in                                 | 3305   | 0.002409     |
+| mod_indic_pres_ps1_pl_ps_af                   | 3189   | 0.002325     |
+| mod_indic_pres_ps1_sg_ps_af                   | 2490   | 0.001815     |
+| mod_sup_ps_abes                               | 2470   | 0.001800     |
+| mod_cond_pres_ps3_pl_ps_af                    | 2102   | 0.001532     |
+| mod_quot_pres_ps_neg                          | 2039   | 0.001486     |
+| mod_indic_pres_imps_neg                       | 1679   | 0.001224     |
+| aux_indic_impf_ps_neg                         | 1186   | 0.000865     |
+| mod_sup_ps_tr                                 | 1032   | 0.000752     |
+| mod_indic_pres_ps2_sg_ps_af                   | 949    | 0.000692     |
+| mod_indic_impf_ps1_sg_ps_af                   | 761    | 0.000555     |
+| mod_sup_ps_el                                 | 750    | 0.000547     |
+| mod_cond_pres_imps_neg                        | 510    | 0.000372     |
+| mod_imper_pres_ps2_pl_ps_neg                  | 385    | 0.000281     |
+| aux_cond_pres_ps_neg                          | 351    | 0.000256     |
+| mod_imper_pres_ps3_pl_ps_neg                  | 334    | 0.000243     |
+| mod_indic_pres_ps2_pl_ps_af                   | 324    | 0.000236     |
+| mod_indic_impf_ps1_pl_ps_af                   | 293    | 0.000214     |
+| mod_cond_pres_ps1_pl_ps_af                    | 233    | 0.000170     |
+| mod_cond_pres_ps1_sg_ps_af                    | 192    | 0.000140     |
+| mod_cond_past_ps_neg                          | 190    | 0.000138     |
+| mod_sup_imps                                  | 77     | 0.000056     |
+| mod_partic_pres_ps                            | 44     | 0.000032     |
+| aux_imper_pres_ps2_pl_ps_neg                  | 43     | 0.000031     |
+| mod_quot_pres_imps_neg                        | 42     | 0.000031     |
+| mod_partic_pres_imps                          | 40     | 0.000029     |
+| mod_imper_pres_ps1_pl_ps_neg                  | 38     | 0.000028     |
+| mod_cond_past_imps_neg                        | 32     | 0.000023     |
+| mod_indic_impf_ps2_pl_ps_af                   | 27     | 0.000020     |
+| aux_quot_pres_ps_neg                          | 27     | 0.000020     |
+| mod_cond_pres_ps2_pl_ps_af                    | 16     | 0.000012     |
+| mod_imper_pres_imps_neg                       | 15     | 0.000011     |
+| aux_imper_pres_ps3_pl_ps_neg                  | 10     | 0.000007     |
+| neg_tud                                       | 9      | 0.000007     |
+| mod_cond_past_ps3_pl_ps_af                    | 2      | 0.000001     |
+| aux_cond_past_ps_neg                          | 2      | 0.000001     |
+| mod_cond_past_ps1_sg_ps_af                    | 2      | 0.000001     |
+| mod_cond_past_ps1_pl_ps_af                    | 1      | 0.000001     |
+| mod_quot_past_imps_neg                        | 1      | 0.000001     |
+| aux_imper_pres_ps1_pl_ps_neg                  | 1      | 0.000001     |
+| neg_me                                       | 1      | 0.000001     |
 
-The .txt file can be downloaded [here](https://github.com/ahtokiil/ids_2023/blob/main/balanced_corpus_summary.txt).
+The .txt file can be downloaded [here](https://github.com/ahtokiil/ids_2023/blob/main/wiki_corpus_summary.txt).
