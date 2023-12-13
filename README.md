@@ -21,7 +21,7 @@ In addition, the [Estonian National Corpus of 2021](/https://github.com/ahtokiil
 
 ### Results
 
-The hypothesis testing showed that the difference of weight of verbs (total_words/verbs) in four corpora is statistically significant. Therefore, future research will be conducted on a lemma level (comparing the same verb distribution in different corpora; also over time).
+[The hypothesis testing](https://github.com/ahtokiil/ids_2023/blob/main/hypothesis_testing.md) showed that the difference of weight of verbs (total_words/verbs) in four corpora is statistically significant. Therefore, future research will be conducted on a lemma level (comparing the same verb distribution in different corpora; also over time).
 
 ### Poster presentation
 
