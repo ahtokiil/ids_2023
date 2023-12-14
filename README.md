@@ -17,7 +17,7 @@ Four different corpora of Estonian were used and each process is described in a 
 3. The [Wikipedia corpus in Estonian](https://github.com/ahtokiil/ids_2023/blob/main/balanced_corpus.md).
 4. The [Estonian fiction](https://github.com/ahtokiil/ids_2023/blob/main/balanced_corpus.md).
 
-In addition, the [Estonian National Corpus of 2021](/https://github.com/ahtokiil/ids_2023/blob/main/nc21_web_2021.md) was analyzed for future lemma distribution purposes.
+In addition, the [Estonian National Corpus of 2021](/https://github.com/ahtokiil/ids_2023/blob/main/nc21_web_2021.md) was analysed for future lemma distribution purposes.
 
 ### Results
 
