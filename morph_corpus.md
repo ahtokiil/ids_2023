@@ -121,7 +121,7 @@ print(f"Total verb count: {total_count}\n")
 
 3. Verbs
 
-From 492 519 words in the corpus there are 96 510 verbs (weight = 0.184066).
+From 492 519 words in the corpus there are 96 510 verbs (weight = 0.195952).
 
 The verbforms are represented as follows:
 
